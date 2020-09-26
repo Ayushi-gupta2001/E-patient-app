@@ -1,0 +1,43 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("a.jpg");
+    background-size:100% 570px;
+    background-repeat:no-repeat;
+}
+
+.bg-primary
+{
+    background-color: black; !important;
+}
+
+.header
+{
+   font-family:Times New Roman;
+    text-shadow: 2px 2px black;
+    padding-top:140px;
+    box-sizing:border-box;
+}
+.header h1{
+    font-size:110px;
+}
+.header p{
+    font-size:20px;
+}
+
+.ourservices
+{
+    padding-top:280px;
+    font-family:Verdana;
+    font-weight: bold;
+    height:700px;
+}
+
+.icons
+{
+    border-radius:50%;
+    height:100px;
+    width:100px;
+}
+
+
+
+

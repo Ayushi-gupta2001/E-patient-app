@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="sign in.css">
+        <link rel="stylesheet" href="bootstrap.css">
+
+        <!--Font awasome link-->
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+        crossorigin="anonymous">
+
+        <script src="https://kit.fontawesome.com/yourcode.js"></script>
+
+        <!--Linking the javascript-->
+        <script src="sign in.js"></script>
+
+    </head>
+
+    <body>
+
+        <!--navabar start-->
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container">
+             
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggle-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navberCollapse">
+                    <ul class="navbar-nav">
+
+                        <!--adding the list of items in navbar-->
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="a.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="sign in.html">SIGN IN</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="login.html">LOGIN</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="a.html">APPOINTMENT</a>
+                                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--navbar ends-->
+
+
+       <!--making the form starting-->
+
+        <form class="form-container" onsubmit="return validateform()" action="#" method="post" >
+            <div class="row">
+           <div class="logo-tittle">
+            <i class="fa fa-user fa-8x"></i>
+            </div>
+        </div>
+            <div class="form-row">
+
+                <div class="col-md-6">
+                    <lable class="text-white"><i class="fa fa-user " style="font-size:24px; color:#1B4F72 ;"></i>Firstname</lable>
+                    <input type="text" class="form-control mb-2" id="myfirstname" placeholder="Firstname">
+                </div>
+                <div class="col-md-6">
+                    <lable class="text-white"><i class="fa fa-user"  style="font-size:24px; color:#1B4F72  ;"></i>Lastname</lable>
+                   <input type="text" class="form-control mb-2" id="mylastname" placeholder="Lastname">
+                </div>
+             </div>
+        
+             <div class="form-group">
+                <lable  class="text-white" ><i class="fa fa-envelope"  style="font-size:24px; color:#1B4F72  ;"></i>EmailId</lable>
+                <input type="emailid" class="form-control" id="myemailid" placeholder="Email id">
+            </div>
+            <div class="form-group">
+                <lable  class="text-white"><i class="fa fa-lock"  style="font-size:24px; color:#1B4F72  ;"></i>Password</lable>
+                    <input type="pwd" class="form-control" id="mypassword" placeholder="Password">
+                </div>
+         
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <lable  class="text-white"><i class="fa fa-mobile "  style="font-size:24px; color:#1B4F72  ;"></i>Mobile Number</lable>
+                        <input type="number" class="form-control mb-2" id="mynumber" placeholder="Mobile no.">
+                 </div>
+                 <div class="col-md-6">
+                    <lable  class="text-white"><i class="fa fa-calendar"  style="font-size:24px; color:#1B4F72 ;"></i>Date Of Birth</lable>
+                    <input type="date" class="form-control mb-2" id="mybirthdate" placeholder="Date of Birth">
+             </div>
+           </div>
+            
+           <div class="form-group">
+            <lable  class="text-white"><i class="fa fa-id-card "  style="font-size:24px; color:#1B4F72 ;"></i>Adhar Card</lable>
+            <input type="number" class="form-control" id="myidcard" placeholder="Adharcard no.">
+        </div>
+
+    <a type="button" class="btn btn-success btn-block" href="login.html">Create an Account</a>
+            <div class="form-group text-center text-white my-3">
+                <p>Already have an Account? <a href="login.html">Login</a></p>
+            </div>
+            
+                                                                                                                                                       
+        </form>
+
+        <!--ending of the form-->
+
+        <script src="bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    </body>
+    </html>

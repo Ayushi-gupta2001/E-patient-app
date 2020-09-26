@@ -1,0 +1,28 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("a.jpg");
+    background-size:100% 770px;
+    background-repeat:no-repeat;
+}
+
+.form-container{
+    border:1px solid black;
+    box-sizing:border-box;
+    width:40%;
+    height: 90%;
+    margin:140px 0px 0px 370px;
+    padding:30px 40px;
+    box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+.logo-tittle
+{
+    margin-top:-97px;
+    margin-left:195px;
+    margin-bottom:18px;
+    color:#1B4F72   ;
+}
+
+input [type="text"]
+{
+    color:white;
+}
